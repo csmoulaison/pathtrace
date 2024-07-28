@@ -1,25 +1,15 @@
 file(REMOVE_RECURSE
-  "../bin/pathtrace"
-  "../bin/pathtrace.pdb"
-  "CMakeFiles/pathtrace.dir/src/camera.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/camera.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/cm_math.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/cm_math.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/main.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/main.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/platform.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/platform.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/sphere.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/sphere.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/tracer.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/tracer.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/vec3.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/vec3.cpp.o.d"
-  "CMakeFiles/pathtrace.dir/src/world.cpp.o"
-  "CMakeFiles/pathtrace.dir/src/world.cpp.o.d"
+  "CMakeFiles/pathtrace.dir/src/context.c.o"
+  "CMakeFiles/pathtrace.dir/src/context.c.o.d"
+  "CMakeFiles/pathtrace.dir/src/main.c.o"
+  "CMakeFiles/pathtrace.dir/src/main.c.o.d"
+  "CMakeFiles/pathtrace.dir/src/platform.c.o"
+  "CMakeFiles/pathtrace.dir/src/platform.c.o.d"
+  "pathtrace"
+  "pathtrace.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C)
   include(CMakeFiles/pathtrace.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
